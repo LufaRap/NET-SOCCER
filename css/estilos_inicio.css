@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Luckiest+Guy');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.logo h1{
+	font-family: 'arial';
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	color: #157BDB;
+	font-size: 80px;
+	color: #157BDB;
+
+}
+.logo{
+	padding: 50px;
+	text-align: center;
+	text-shadow:1px 1px #000,
+				2px 2px #000,
+				5px 5px #000,
+				2px 3px #fAf;
+}
+	
+header{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto; 
+}
+
+header nav{
+	background: #157BDB; /* color nav */
+	overflow: hidden;  /* Enmarcar los enlaces*/
+}
+
+header nav ul{
+	list-style-type: none;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	font-family: 'arial';
+	text-decoration: none;
+	padding: 10px 70px 10px;
+	font-size: 20px;
+	display: inline-block;	
+	color: white;
+}
+
+header nav ul li a:hover{
+	text-decoration: none;
+	font-size: 20px;
+	background: #A9CCE3;
+
+}
+

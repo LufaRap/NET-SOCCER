@@ -1,0 +1,73 @@
+.modulos a{
+	font-family: Spectral SC;
+	padding-right: 50px;
+	margin: 6px 80px;
+	display: inline-block;  /* cajas */
+	background: #3BA7E1;
+	color: white;
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 20px;
+}
+
+.modulos a:link{
+	color: white;
+	text-decoration: none;
+}
+
+/* #FAD7A0 shadow anterior*/
+.modulos a:hover{
+	color: white;
+	box-shadow: 20px 15px 15px #2E4053;
+	font-size: 25px;
+
+}
+
+.modulos a:active{
+	background: #3BA7E1;
+	color: white;
+	box-shadow: none;
+}
+
+h1{
+	color: #2E4053;
+	font-size: 30px; 
+	font-family: verdana;
+	text-align: center;
+}
+
+a{
+    font-family: Spectral SC;
+}
+.modulos{
+
+	text-align: center;
+}
+
+
+.salir{
+	text-align: center;
+	padding-top: 80px; 
+}
+.salir a{
+	text-decoration-line: none;
+	padding: 5px 30px 5px 30px;
+	font-family: Spectral SC;
+	color: white;
+	font-size: 20px;
+	display: inline-flex;
+	background: #3BA7E1;
+	border-radius: 20px;
+}
+
+.salir a:hover{
+	color: white;
+	box-shadow: 20px 15px 15px #2E4053;
+	font-size: 25px;
+}
+
+.salir a:active{
+	background: #3BA7E1;
+	color: white;
+	box-shadow: none;
+}
